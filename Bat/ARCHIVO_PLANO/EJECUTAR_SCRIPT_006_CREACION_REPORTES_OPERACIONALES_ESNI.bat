@@ -1,0 +1,1 @@
+sqlcmd -E -S UEIHNE01\SQLEXPRESS -d BDHIS_MINSA -i C:\HISMINSA\Scripts\ESNI\USP_TRAMA_BASE_ESNI_RPT.sql -o C:\HISMINSA\Resultados\USP_TRAMA_BASE_ESNI_RPT.txt & @echo Script  ejecutado en la Base de datos UEIHNE01/SQLEXPRESS/BDHIS_MINSA
